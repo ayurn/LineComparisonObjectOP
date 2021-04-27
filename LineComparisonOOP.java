@@ -60,6 +60,18 @@ public class LineComparisonOOP {
         else
             System.out.println("Lines are Not Equal");
 
+        if(comparison==0)
+  	    {
+  	    	System.out.println("Length of Line1 = "+len1+" is equal to Length of Line2 = "+len2);
+  	    }
+  	    else if(comparison<0)
+  	    {
+  	    	System.out.println("Length of Line1 = "+len1+" is less than to Length of Line2 = "+len2);	
+  	    }
+  	    else
+  	    {
+  	    	System.out.println("Length of Line1 = "+len1+" is greater than to Length of Line2 = "+len2);
+  	    }
 	}
 
 }
